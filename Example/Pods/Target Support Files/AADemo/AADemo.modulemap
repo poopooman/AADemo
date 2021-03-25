@@ -1,0 +1,6 @@
+framework module AADemo {
+  umbrella header "AADemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

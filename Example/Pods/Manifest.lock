@@ -1,0 +1,27 @@
+PODS:
+  - AADemo (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - AADemo (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  AADemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AADemo: 0e89074f7280aab5fb02eef6165ce8f4af57b2f3
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 49aa244d125185924a62dbee7ea2d2e3b46b83bd
+
+COCOAPODS: 1.10.0
